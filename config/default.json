@@ -1,0 +1,13 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "mongodb": "mongodb://localhost:27017/chatWithMongoose",
+  "public": "../public/",
+  "auth": {
+    "token": {
+      "secret": "2BKZzaz2wahWf2rep82gLp/5whGZVIYq/Ya9Xm+ULBkccFcw19naC7tXJ0PcIYlk2tyAFQJU2m2Eh7tDgBNyvw=="
+    },
+    "local": {},
+    "successRedirect": "/chat.html"
+  }
+}
